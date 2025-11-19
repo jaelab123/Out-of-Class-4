@@ -1,0 +1,194 @@
+#headline {
+	background-color:#802000;
+	color: #ffeb99;
+	padding: 30px;
+	text-align: center;
+	font-family: sans-serif;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #ffeb99;
+}
+
+body{
+	background-color: #000000;
+}
+
+
+.instructions {
+	font-family: sans-serif;
+	max-width: 500px;
+	padding: 20px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.coverpic {
+	display: flex;
+	justify-content: flex-start;
+	max-width: 300px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #802000;
+}
+
+.content-row {
+  display: flex;                
+  align-items: center;          
+  justify-content: center;      
+  gap: 40px;                    
+  padding: 20px;
+}
+
+.navbar ul{
+	font-weight: bolder;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	gap:12px;
+	align-items: center;
+	max-width: 500px;
+}
+
+.navbar a{
+	display:block;
+	text-decoration: none;
+	color: #ffeb99;
+	font-family: sans-serif;
+	padding:6px 10px;
+}
+
+.navbar a:hover {
+	background-color: #802000;
+	color: #ffeb99;
+}
+
+
+.thanks{
+	padding-top: 50px;
+	text-align: center;
+	font-family: sans-serif;
+	color:#ffeb99;
+}
+
+
+/* SONG PAGES START HERE */
+
+
+.songcontent {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 20px;
+}
+
+.covers{
+	border: 5px solid #802000;
+	display: flex;         
+  	justify-content: center;
+  	align-items: center; 
+	max-width: 300px;
+}
+
+
+.button-container{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.homebutton{
+	background-color:#ffeb99;
+	color:#802000;
+	border: 3px solid #802000;
+	padding: 10px 20px;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.homebutton:hover{
+	border: #ffeb99 3px solid;
+	background-color:#802000;
+	color:#ffeb99;
+}
+
+
+@media (max-width: 600px) {
+    .content-row{
+    	flex-direction: column;
+    	align-items: center;
+    	text-align: center;
+    	gap:20px;
+    }
+
+    .headphones img{
+    	width: 100%;
+    	max-width: 200px;
+    }
+
+    .navbar ul{
+    	display: flex;
+    	flex-direction: column;
+    	align-items: center;
+    	gap: 6px;
+    }
+
+    .navbar li{
+    	margin:4px 0;
+    }
+    
+    .instructions {
+        max-width: 100%;
+    }
+}
+
+
+/* Song Items Below */
+
+
+ .piccontent{
+   	display: flex;
+   	justify-content: center;
+   	align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    color: #ffeb99;
+    font-family: sans-serif;
+
+    max-width: 900px;
+    margin: 0 auto;
+    width: 100%;
+	}
+
+
+@media (max-width: 768px){
+
+    .piccontent{
+    	display: block;
+    	text-align: center;
+    	padding:10px;
+    }
+
+    .covers{
+    	width: 100%;
+    	max-width: 300px;
+    	margin: 0 auto;
+    	justify-content: center;
+    }
+
+    .covers img{
+    	width: 100%;
+    	display: block;
+    }
+
+    .picinfo{
+    	max-width: 90%;
+    	padding: 10px;
+    	margin: 0 auto;
+    }
+
+    .button-container{
+    	text-align: center;
+    }
+}
+
+
+
